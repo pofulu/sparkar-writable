@@ -1,0 +1,35 @@
+{
+  "name": "sparkar-writable",
+  "version": "0.1.0",
+  "description": "Extensions library for Meta Spark AR scripting writable signal source",
+  "keywords": [
+    "meta",
+    "spark",
+    "ar",
+    "signal",
+    "writable",
+    "extensions"
+  ],
+  "homepage": "https://github.com/pofulu/sparkar-writable#readme",
+  "bugs": {
+    "url": "https://github.com/pofulu/sparkar-writable/issues"
+  },
+  "repository": {
+    "url": "https://github.com/pofulu/sparkar-writable.git"
+  },
+  "license": "MIT",
+  "author": "Pofu Lu",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "sparkar-bundler -t && tsup",
+    "test": "sparkar-bundler"
+  },
+  "devDependencies": {
+    "sparkar-bundler": "^0.2.3",
+    "tsup": "^6.5.0"
+  }
+}

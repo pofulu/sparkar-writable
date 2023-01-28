@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "paths": {
+      "*": [
+        "/Users/pofulu/Desktop/sparkar-writable/node_modules/*",
+        "/Users/pofulu/Library/Caches/Facebook/Spark AR Studio/Scripting/skylight-typedefs/265e5af755122b57/*",
+        "/Users/pofulu/Library/Caches/Facebook/Spark AR Studio/Scripting/skylight-node_modules/*"
+      ]
+    }
+  }
+}
